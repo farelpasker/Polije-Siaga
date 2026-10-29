@@ -92,6 +92,8 @@ main {
     background-color: #F1F1F1;
     padding: 5rem;
     margin-top: 50px;
+    position: relative;
+    overflow: hidden;
 }
 
 .content {
@@ -129,7 +131,6 @@ main {
 }
 
 .content-text p {
-    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     color: #000000;
     margin-bottom: 1rem;
@@ -160,12 +161,12 @@ main {
 }
 
 .kotak-atas-kanan {
-    top: 90px;
-    right: 220px;
+    top: 30px;
+    right: 180px;
 }
 
 .kotak-bawah-kanan {
-    bottom: 30px;
+    bottom: 100px;
     right: 120px;
 }
 
@@ -219,3 +220,465 @@ main {
     border-radius: 15px 0 35px 0;
 }
 
+.layanan-keamanan {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    padding: 40px 50px 20px 50px;
+    width: 100%;
+}
+
+.layanan-keamanan .content-2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40rem;
+    padding: 20px;
+}
+
+.content-2-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    width: 100%;
+}
+
+.card {
+    width: 400px;
+    flex: 0 1 400px;
+    min-width: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.card div {
+    padding: 20px;
+    position: relative;
+    height: 100%;
+}
+
+.card div h3 {
+    font-size: 17px;
+}
+
+.card div p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card div button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+.alur-laporan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F1F1;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.alur-laporan .content-information {
+    display: flex;
+    flex-direction: column;
+    padding: 85px 50px;
+}
+
+.alur-laporan .content-information .content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alur-laporan .content-information .content-text h2 {
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.alur-laporan .content-information .content-text p {
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+.card-alur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.card-alur .card-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #717171;
+}
+
+.card-alur .card-information h2 {
+    padding: 10px 20px;
+    background-color: #86B9CF;
+    border-radius: 10px;
+    color: #45606C;
+}
+
+.card-alur .card-information h3 {
+    margin-top: 10px;
+    color: #000000;
+}
+
+.card-alur .card-information p {
+    margin-top: 10px;
+    color: #000000;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.laporan {
+    padding: 100px 0;
+}
+
+.laporan-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.information {
+    width: 50%;
+}
+
+.information .update{
+    background-color: #EFF6FF;
+    border: 1px solid #BFDBFE;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.information .update span{
+    background-color: #2563EB;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.information h2 {
+    color: #0F172A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.information p {
+    color: #64748B;
+    font-size: 14px;
+}
+
+.information div {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.information div button {
+    background-color: #F1F5F9;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #475569;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.information div button span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.merah {
+    background-color: #FF3B3B;
+    margin-right: 5px;
+}
+
+.hijau {
+    background-color: #10B981;
+    margin-right: 5px;
+} 
+
+
+.search-bar {
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px 12px;
+    width: 300px;
+    border: 1px solid #E2E8F0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 45px;
+    background-color: #F8FAFC;
+}
+
+.search-bar input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.search-bar input::placeholder{
+    color: #94A3B8;
+}
+
+.search-bar:focus-within {
+    border-color: #1E4E75;
+}
+
+.laporan-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.card-laporan {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+}
+
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #F1F5F9;
+}
+
+.card-detail p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #64748B;
+}
+
+.card-detail p iconify-icon {
+    color: #94A3B8;
+    flex-shrink: 0;
+}
+
+.card-laporan button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+
+.card-detail-1 {
+    height: 100%;
+}
+
+.card-detail-1 h3{
+    color: #0F172A;
+}
+
+.card-detail-1 p{
+    color: #64748B;
+    font-size: 14px;
+}
+
+
+.card-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #F1F5F9;
+}
+
+.card-detail p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #64748B;
+}
+
+.card-detail p iconify-icon {
+    color: #94A3B8;
+    flex-shrink: 0;
+}
+
+.card-laporan button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.card-detail-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px;
+}
+
+.button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button-merah {
+    background-color: #FEE2E2;
+    color: #FF3B3B;
+    border: 1px solid #FF3B3B;
+}
+
+.button-hijau {
+    background-color: #ECFDF5;
+    color: #047857;
+    border: 1px solid #A7F3D0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6D6D6;
+    padding: 20px 50px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1E4E75;
+    padding: 40px;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.polije-footer {
+    display: flex;
+    align-items: center;
+}
+
+.polije-footer img {
+    width: 40px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.polije-footer div h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 900;
+}
+
+.polije-footer div p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.footer-kontak {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.footer-kontak h2 {
+    border-bottom: 1px solid #465E92;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-kontak  {
+    text-align: center;
+}
+
+.tautan-cepat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tautan-cepat h2 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #465E92;
+    margin-bottom: 10px;
+}
+
+.tautan-cepat a {
+    color: #000000;
+}
